@@ -8,6 +8,8 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* HEADER */
@@ -153,4 +155,42 @@ a {
 .quote {
     background-color: #E5E7EB;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    width: 45%;
+    max-width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-container p  {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 0;
+    font-style: italic;
+}
+
+
+.quote-container .autor-quote {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: medium;
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 10px;
 }
